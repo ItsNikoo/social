@@ -1,6 +1,8 @@
 import {mockPosts} from "@/app/api/posts/route";
 import PostCard from "@/app/components/PostCard";
 import AccountMenu from "@/app/components/AccountMenu";
+import Link from "next/link";
+import styles from "./Globals.module.css"
 
 interface Post {
     id: number;
@@ -16,8 +18,9 @@ export default async function BlogPage() {
                     <PostCard id={post.id} key={post.id} title={post.title} body={post.body}/>
                 ))}
             </div>
-            <div className='w-1/5'>
+            <div className='w-1/5 flex flex-col items-center gap-10'>
                 <AccountMenu />
+                <Link className={styles.Button} href={'/account'}>Личный кабинет</Link>
             </div>
         </div>
     );

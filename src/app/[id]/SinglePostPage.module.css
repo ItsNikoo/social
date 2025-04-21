@@ -1,0 +1,129 @@
+/* SinglePostPage.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 2rem;
+    background-color: #5c5343;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.HigherContainer {
+    display: flex;
+}
+
+.ContainerButton {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button {
+    background-color: #faeed9;
+    padding: 10px;
+    border-radius: 1rem;
+    border: #faeed9 2px solid;
+}
+
+.Button:hover {
+    background-color: #5c5343;
+    color: white;
+    border: white 2px solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+    width: 75%;
+}
+
+.body {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.notFound {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #e53e3e;
+}
+
+.CommentsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.GlobalFormContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.FormContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Input {
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.Comment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.HighestCommentSection{
+    display: flex;
+    font-weight: bolder;
+    gap: 5px;
+    align-items: center;
+}
+
+.Date{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.Author{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.CommentText{
+    font-size: 20px;
+    width: 100%;
+}
+
+.LoginSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
