@@ -33,10 +33,14 @@ export default async function AccountMenu() {
             <div className={styles.userContainer}>
                 <div className={styles.avatarSection}>
                     {session?.user?.image && (
-                        <img
+                        <Image
                             src={session.user.image}
                             alt="User profile"
                             className={styles.placeholderAvatar}
+                            width={40} // Обязательные параметры
+                            height={40} // Обязательные параметры
+                            quality={85} // Оптимизация качества
+                            priority // Если изображение выше сгиба
                         />
                     )}
                 </div>
