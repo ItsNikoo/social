@@ -1,4 +1,4 @@
-import {mockPosts} from "@/app/api/posts/route";
+import {mockPosts} from "@/app/data/data";
 import PostCard from "@/app/components/PostCard";
 import AccountMenu from "@/app/components/AccountMenu";
 import Link from "next/link";

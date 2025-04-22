@@ -1,7 +1,7 @@
 'use client'
 
 import {useParams} from 'next/navigation';
-import {mockPosts} from "@/app/api/posts/route";
+import {mockPosts} from "@/app/data/data";
 import styles from './SinglePostPage.module.css';
 import Link from "next/link";
 import {useSession} from "next-auth/react";
